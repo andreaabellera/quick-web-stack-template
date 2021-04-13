@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css2?family=Ramaraja&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alice&family=Pacifico&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Concert+One&display=swap);
+
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: whitesmoke;
+    background-color: purple;
+    font-family: 'Concert One', cursive;
+    font-size: 1vw 1vh;
+}
+
+.left{
+    margin: 0.4%;
+}
+
+.right{
+    margin: 0.4%;
+}
