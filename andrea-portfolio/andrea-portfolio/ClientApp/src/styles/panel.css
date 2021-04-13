@@ -1,0 +1,26 @@
+
+.panelBase {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    height: 5em;
+    width: 5em;
+}
+
+.darken {
+    filter: brightness(50%);
+}
+
+.brighten:hover {
+    box-shadow: 0 0 1em 0.2em #f3f3c5;
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+.panelItem.active {
+    opacity: 10%;
+}

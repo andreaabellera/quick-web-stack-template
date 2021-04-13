@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/viewport.css";
 import { Scene, PerspectiveCamera, WebGLRenderer, BoxGeometry, MeshStandardMaterial, Mesh, CircleGeometry, HemisphereLight, AmbientLight } from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { Interaction } from 'three.interaction';
