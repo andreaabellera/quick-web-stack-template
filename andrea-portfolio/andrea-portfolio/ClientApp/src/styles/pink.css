@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lemonada:wght@400;500&display=swap);
+
+.headerDrop {
+    animation: drop 1s;
+}
+
+@keyframes drop {
+    from {
+        transform: translateY(-70%);
+    }
+
+    to {
+        transform: translateY(-1%);
+    }
+}
+
+.pink {
+    display: block;
+}
+
+.chateau {
+    height: inherit;
+    width: 100%;
+    transform: translateY(10%);
+}
+
+.animateContainer {
+    height: inherit;
+    width: 100%;
+    position: relative;
+}
+
+.cloud {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    opacity: 50%;
+}
+
+.attachBottom{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}

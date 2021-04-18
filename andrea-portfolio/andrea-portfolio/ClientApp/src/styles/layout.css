@@ -1,9 +1,11 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    width: 100%;
 }
 
-Header {
+/*Header {
     top: 0;
     position: fixed;
     opacity: 70%;
@@ -15,6 +17,26 @@ Header:hover {
     transform: translateY(-1%);
     opacity: 100%;
     cursor: pointer;
+}*/
+
+Header {
+    top: 0;
+    position: fixed;
+    transform: translateY(-80%);
+    z-index: 3;
+}
+
+Header:hover {
+    transition: 0.3s ease-out;
+    transform: translateY(-1%);
+    cursor: pointer;
+}
+
+.viewport {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(red, yellow);
+    background-size: cover;
 }
 
 .centerpiece {

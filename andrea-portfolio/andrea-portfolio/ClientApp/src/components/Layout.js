@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import { Header } from './Header';
+import { PinkHeader } from './PinkHeader';
+import { Pink } from './Pink';
 import { Panel } from './Panel';
 import { Footer } from './Footer';
 import "../styles/layout.css";
@@ -14,17 +16,19 @@ export class Layout extends Component {
     render () {
          return (
             <html>
-                <body>
-                      <Header />
-                      <div className="centerpiece" style={{ backgroundImage: `url(${GrandeFrame})` }}>
-                          <div className="centerwrap">
-                              <Panel />
+                 <body>
+                     <div className="viewport">
+                          <PinkHeader />
+                          <div className="centerpiece" style={{ backgroundImage: `url(${GrandeFrame})` }}>
+                              <div className="centerwrap">
+                                  <Panel />
+                              </div>
                           </div>
-                      </div>
-                      <Container>
-                          {this.props.children}
-                      </Container>
-                    <Footer />
+                          <Pink>
+                              {this.props.children}
+                          </Pink>
+                         <Footer />
+                     </div>
                 </body>
             </html>
         )

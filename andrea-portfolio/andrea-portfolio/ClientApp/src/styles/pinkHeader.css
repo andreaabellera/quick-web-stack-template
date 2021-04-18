@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css2?family=Lemonada:wght@400;500&display=swap);
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerBase {
+    color: #B6127A;
+    background-image: url(../res/pink/pink_header_base_light.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    padding-bottom: 0.5%;
+}
+
+.headerTitle {
+    font-family: 'Lemonada', cursive;
+    color: cornsilk;
+    font-size: 3vw;
+    -webkit-text-stroke: 0.03em olive;
+    text-shadow: -0.1em 0.1em 0.15em rgb(210,135,155);
+}
+
+.headerItems {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.flourish {
+    width: 10%;
+}
+
+.headerItem{
+    font-family: 'Concert One', cursive;
+    font-size: 1.2vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: #B6127A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.noBullet{
+    list-style-type: none;
+}
+
+.headerItem.active {
+    opacity: 10%;
+}
+
+.headerItems img {
+    height: 70%;
+    width: 70%;
+}
+
+.headerOrnament{
+    height: 2.5vw;
+    transform: translateY(-2%);
+    background-size: contain;
+    background-repeat: repeat-x;
+}
