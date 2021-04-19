@@ -35,7 +35,7 @@ Header:hover {
 .viewport {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(#ffaece, #fefacd);
     background-size: cover;
 }
 

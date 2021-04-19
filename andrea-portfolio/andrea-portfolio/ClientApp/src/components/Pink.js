@@ -1,6 +1,6 @@
 import React from "react";
 import { PinkHeader } from './PinkHeader';
-import Chateau from "../res/pink/just_chateau.png";
+import Chateau from "../res/pink/chateau_stretch.png";
 import CloudLight1 from "../res/pink/cloud_light_1.svg";
 import CloudLight2 from "../res/pink/cloud_light_2.svg";
 import CloudLight3 from "../res/pink/cloud_light_3.svg";
@@ -13,16 +13,17 @@ export class Pink extends React.Component {
 
     constructor(props) {
         super(props)
-        this.state = {
+        /*this.state = {
             headerToggled: false
         }
-        this.toggleHeader = this.toggleHeader.bind(this)
+        this.toggleHeader = this.toggleHeader.bind(this)*/
     }
-    toggleHeader(event) {
+    /*toggleHeader(event) {
         this.setState(state => ({ headerToggled: !state.headerToggled }));
-    }
+    }*/
 
     render() {
+        moveCloud();
         return(
             <div class="pink">
                 <img src={Chateau} className="chateau attachBottom" />
@@ -37,19 +38,19 @@ export class Pink extends React.Component {
     }
 
     moveCloud() {
-        var cloud = document.getElementByClass("cloud");
+        /*var cloud = document.getElementByClass("cloud");
         var pos = 0;
-        clearInterval(cloud);
+        clearInterval();
         cloud = setInterval(frame, 5);
         function frame() {
             if (pos == 350) {
-                clearInterval(id);
+                clearInterval(cloud);
             }
             else {
                 pos++;
                 elem.style.left = pos + "px";
             }
-        }
+        }*/
     }
 
 }
