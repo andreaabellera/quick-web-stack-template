@@ -22,7 +22,7 @@ header{
     font-family: 'Lemonada', cursive;
     color: cornsilk;
     font-size: 3vw;
-    -webkit-text-stroke: 0.03em olive;
+    -webkit-text-stroke: 0.01em olive;
     text-shadow: -0.1em 0.1em 0.15em rgb(210,135,155);
 }
 
@@ -35,7 +35,9 @@ header{
 }
 
 .flourish {
+    height: 10%;
     width: 10%;
+    margin-bottom: 1%;
 }
 
 .headerItem{

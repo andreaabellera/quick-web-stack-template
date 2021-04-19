@@ -23,7 +23,6 @@ export class Pink extends React.Component {
     }*/
 
     render() {
-        moveCloud();
         return(
             <div class="pink">
                 <img src={Chateau} className="chateau attachBottom" />

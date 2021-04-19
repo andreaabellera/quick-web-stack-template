@@ -6,7 +6,7 @@ import { Pink } from './Pink';
 import { Panel } from './Panel';
 import { Footer } from './Footer';
 import "../styles/layout.css";
-import GrandeFrame from "../res/grandeframe.png";
+import GrandeFrame from "../res/pink/frame_pink.png";
 
 export class Layout extends Component {
   static displayName = Layout.name;
